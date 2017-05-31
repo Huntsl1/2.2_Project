@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+.signup{
+  background-color: #fff;
+  width: 800px;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+}
+.radio{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:5px 73px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  flex:1 1 40%;
+  margin-bottom: 20px;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  flex:1 1 40%;
+  margin-bottom: 20px;
+}
+.password{
+  display: flex;
+  flex-direction: column;
+  flex:1 1 40%;
+  margin-bottom: 20px;
+}
+.confirm{
+  display: flex;
+  flex-direction: column;
+  flex:1 1 40%;
+  margin-bottom: 20px;
+}
+.profile_pic{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+}
+.lineone{
+  display: flex;
+  flex-direction: row;
+
+}
+.linetwo{
+  display: flex;
+  flex-direction: row;
+
+}
+.name input{
+  margin-right: 15px;
+}
+.password input{
+  margin-right: 15px;
+}
+.linethree{
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+button{
+  padding:5px 153px;
+  display: flex;
+  flex: 1 1 50%;
+
+}
